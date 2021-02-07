@@ -10,6 +10,11 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
+    "paths": {
+      "@modules/*": ["src/modules/*"],
+      "@configs/*": ["src/configs*"],
+      "@logger": ["src/modules/logger/winston"]
+    },
     "incremental": true
   }
 }
